@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundo Mágico</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Fundo Mágico</h1>
+      <p class="subtitle">
+        Transforme suas ideias em background incríveis com o poder da IA.
+        Descreva o que você imagina e veja a magia acontecer.
+      </p>
+    </header>
+
+    <main>
+      <section class="card main-card">
+        <form class="form-group">
+          <h2>Descreva o background que você deseja.</h2>
+          <textarea
+            name=""
+            id="description"
+            cols="30"
+            rows="5"
+            placeholder="Ex: um gradiente azul suave que vai do azul claro para o azul escuro."
+          ></textarea>
+          <button id="generate-btn" class="btn-magic">
+            <span id="btn-text">Gerar</span>
+          </button>
+        </form>
+      </section>
+
+      <section id="preview-section" class="preview-card">
+        <div class="card code-card">
+          <h3 class="code-title">Código HTML</h3>
+          <pre id="html-code" class="code-block"></pre>
+        </div>
+      </section>
+
+      <section id="code-output" class="code-grid">
+        <div class="card code-card">
+          <h3 class="code-title">Código CSS</h3>
+          <pre id="css-code" class="code-block"></pre>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
